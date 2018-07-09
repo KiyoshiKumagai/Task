@@ -7,6 +7,7 @@
 <title>title</title>
 </head>
 <body>
+<!--yarukinasi -->
 <header>
 <h1>家計簿</h1>
 <ul>
