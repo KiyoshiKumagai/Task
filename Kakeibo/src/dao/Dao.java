@@ -27,7 +27,7 @@ public class Dao {
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
 			con = DriverManager.getConnection(
-					"jdbc:mysql://localhost:65534/shushi?useSSL=false",
+					"jdbc:mysql://localhost:65534/kakeibo?useSSL=false",
 					"root",
 					"12345");
 
@@ -39,7 +39,7 @@ public class Dao {
 			while(rs.next() == true ){
 				int id = rs.getInt("id");
 				String content = rs.getString("content");
-				int year = rs.getInt("yesr");
+				int year = rs.getInt("year");
 				int month = rs.getInt("month");
 				int day = rs.getInt("day");
 				int judgment = rs.getInt("judgment");
@@ -93,7 +93,7 @@ public class Dao {
 			Class.forName("com.mysql.jdbc.Driver");
 
 			con = DriverManager.getConnection(
-					"jdbc:mysql://localhost:65534/shushi?useSSL=false",
+					"jdbc:mysql://localhost:65534/kakeibo?useSSL=false",
 					"root",
 					"12345");
 
