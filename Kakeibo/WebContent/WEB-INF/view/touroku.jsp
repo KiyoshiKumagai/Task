@@ -14,14 +14,14 @@
 			<tr>
 				<th>日付</th>
 				<td>
-					<select name="yaer">
+					<select name="year">
 						<%
 							request.setCharacterEncoding("UTF-8");
 							int i;
-							int yaerMin = 1900, yaerMax = 2100;
+							int yearMin = 1900, yearMax = 2100;
 							int month = 12;
 							int day = 31;
-							for(i = yaerMin; i <= yaerMax; i++) {
+							for(i = yearMin; i <= yearMax; i++) {
 						%>
 						<option value="<%=i %>"><%=i %></option>
 						<%
