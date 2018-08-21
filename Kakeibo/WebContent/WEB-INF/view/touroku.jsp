@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/Kakeibo/CSS/style.css" type="text/css">
 <title>家計簿：登録</title>
 </head>
 <body>
