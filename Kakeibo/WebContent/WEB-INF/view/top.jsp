@@ -13,14 +13,14 @@
 <header>
 <h1>家計簿</h1>
 <ul>
-<li><a>記入</a></li>
+<li><a href="Kakeibo/Touroku">登録</a></li>
 </ul>
 </header>
 <table>
 	<tr>
 		<th>年月日</th>
 		<th>内容</th>
-		<th>収入／出資</th>
+		<th>収入／支出</th>
 		<th>金額</th>
 	</tr>
 	<%
@@ -40,7 +40,7 @@
 		<td><%=shushi.getYear() %>/<%=shushi.getMonth() %>/<%=shushi.getDay() %></td>
 		<td><%=shushi.getContent() %></td>
 		<td><%=judg %></td>
-		<td><%=shushi.getMoney() %></td>
+		<td>&yen;<%=shushi.getMoney() %></td>
 	</tr>
 	<%
 		}
