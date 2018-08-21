@@ -9,7 +9,7 @@
 <body>
 	<h1>家計簿</h1>
 	<h2>登録</h2>
-	<form action="Kakeibo/TourokuResult" method="post">
+	<form action="./TourokuResult" method="post">
 		<table>
 			<tr>
 				<th>日付</th>

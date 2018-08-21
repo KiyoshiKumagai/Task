@@ -13,7 +13,7 @@
 <header>
 <h1>家計簿</h1>
 <ul>
-<li><a href="Kakeibo/Touroku">登録</a></li>
+<li><a href="./Touroku">登録</a></li>
 </ul>
 </header>
 <table>

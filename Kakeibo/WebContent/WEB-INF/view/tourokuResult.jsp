@@ -11,7 +11,7 @@
 		<h1>家計簿</h1>
 	</header>
 	<p>登録しました</p>
-	<button formaction="Kakeibo/Top">一覧に戻る</button>
-	<button formaction="Kakeibo/Touroku">続けて登録</button>
+	<button formaction="./Top">一覧に戻る</button>
+	<button formaction="./Touroku">続けて登録</button>
 </body>
 </html>
